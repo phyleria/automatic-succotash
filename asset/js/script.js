@@ -10,32 +10,3 @@ function myFunction() {
     element.classList.toggle("dark-mode");
   }
 
-const burger = document.getElementById('burger');
-const ul = document.querySelector('nav ul');
-const home = document.getElementById('home');
-const about = document.getElementById('about');
-const skills = document.getElementById('skills');
-const projects = document.getElementById('projects');
-const contact = document.getElementById('exp-contact');
-
-
-burger.addEventListener('click', () => {
-    ul.classList.toggle('show');
-})
-
-home.addEventListener('click', () => {
-    ul.classList.toggle('show');
-})
-about.addEventListener('click', () => {
-    ul.classList.toggle('show');
-})
-skills.addEventListener('click', () => {
-    ul.classList.toggle('show');
-})
-projects.addEventListener('click', () => {
-    ul.classList.toggle('show');
-})
-contact.addEventListener('click', () => {
-    ul.classList.toggle('show');
-})
-

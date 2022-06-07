@@ -15,3 +15,9 @@ This is a project that contains my work as a software developer, skills and expe
 1. HTML, CSS & JavaScript
 2. Github Pages (Hosting)
 
+## Features
+Dark theme
+
+## Contributing
+
+

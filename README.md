@@ -12,6 +12,6 @@ This is a project that contains my work as a software developer, skills and expe
 - Projects
 - Contact
 ## Tools Used
-HTML, CSS & JavaScript
-Github Pages (Hosting)
+- HTML, CSS & JavaScript
+   Github Pages (Hosting)
 

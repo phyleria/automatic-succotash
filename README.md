@@ -5,3 +5,11 @@ This is a project that contains my work as a software developer, skills and expe
 
 ![This is an image](https://github.com/phyleria/phyleria.github.io/blob/main/preview.png)
 
+## Sections
+- Home
+- About
+- Skills
+- Projects
+- Contact
+
+

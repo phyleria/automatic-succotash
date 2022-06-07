@@ -12,32 +12,30 @@ function myFunction() {
 
 const burger = document.getElementById('burger');
 const ul = document.querySelector('nav ul');
-const homeAnchor = document.getElementById('home-anchor');
-const stackAnchor = document.getElementById('stack-anchor');
-const commAnchor = document.getElementById('comm-anchor');
-const eduAnchor = document.getElementById('edu-anchor');
-const expAnchor = document.getElementById('exp-anchor');
-const projAnchor = document.getElementById('proj-anchor');
+const home = document.getElementById('home');
+const about = document.getElementById('about');
+const skills = document.getElementById('skills');
+const projects = document.getElementById('projects');
+const contact = document.getElementById('exp-contact');
+
 
 burger.addEventListener('click', () => {
     ul.classList.toggle('show');
 })
 
-homeAnchor.addEventListener('click', () => {
+home.addEventListener('click', () => {
     ul.classList.toggle('show');
 })
-stackAnchor.addEventListener('click', () => {
+about.addEventListener('click', () => {
     ul.classList.toggle('show');
 })
-commAnchor.addEventListener('click', () => {
+skills.addEventListener('click', () => {
     ul.classList.toggle('show');
 })
-eduAnchor.addEventListener('click', () => {
+projects.addEventListener('click', () => {
     ul.classList.toggle('show');
 })
-expAnchor.addEventListener('click', () => {
+contact.addEventListener('click', () => {
     ul.classList.toggle('show');
 })
-projAnchor.addEventListener('click', () => {
-    ul.classList.toggle('show');
-})
+

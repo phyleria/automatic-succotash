@@ -532,6 +532,70 @@ body.is-black {
     background: #edffec;
     color: #000;
 }
+.about-right{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    text-align: center;
+}
+.about-right h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #9855FF;
+}
+
+.about-right h2{
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #8856d8;
+}
+.about-btns{
+    display: flex;
+    margin: 2rem 0;
+}
+.btn{
+    border: 2px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 13px 36px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.btn.btn-pink{
+    background: #9855FF;
+    color: #fff;
+    border-color: #9855FF;
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-pink:hover{
+    background: transparent;
+    border-color: #9855FF;
+    color: #000;
+}
+.btn.btn-white{
+    transition: all 0.5s ease-in-out;
+  
+}
+.btn.btn-white:hover{
+    background: #9855FF;
+    border-color: #9855FF;
+    color: #fff;
+}
+.about-para p{
+    font-weight: 300;
+    padding: 0.5rem;
+    opacity: 0.8;
+    text-align: left;
+}
+
 
 @media screen and (min-width: 992px){
     .about-wrapper{

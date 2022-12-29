@@ -122,11 +122,11 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .blue{
-  background-color: #29498d;
+  background-color: #F5F5DC;
   color: #ffffff;
 }
 .btn{
-  border: 2px solid rgb(29, 105, 247);
+  border: 2px solid #F5F5DC;
 } 
 .btn-white{
   background-color: #ffffff;
